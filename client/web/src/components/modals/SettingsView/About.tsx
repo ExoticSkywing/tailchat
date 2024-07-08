@@ -37,7 +37,7 @@ export const SettingsAbout: React.FC = React.memo(() => {
 
       <Paragraph>
         <Text className="font-bold">Tailchat</Text>
-        <Text>: {t('属于所有人的开源聊天工具')} </Text>
+        <Text>: {t('属于所有人的聊天工具')} </Text>
       </Paragraph>
       <Paragraph>{t('可供高度自定义的聊天工具')}</Paragraph>
       <Paragraph>{t('完全独属于私人团队的沟通平台')}</Paragraph>
@@ -57,7 +57,7 @@ export const SettingsAbout: React.FC = React.memo(() => {
 
       <div className="text-8xl flex flex-wrap space-x-4 bg-black p-4 rounded-md bg-opacity-20">
         <LogoLink
-          src="https://github.com/msgbyte/tailchat"
+          src="https://navi.1yo.cc"
           icon="logos:github-octocat"
         />
         <LogoLink
@@ -92,12 +92,13 @@ export const SettingsAbout: React.FC = React.memo(() => {
       </div>
 
       <Paragraph className="mt-4">
-        {t('开源地址')}:{' '}
-        <Link href="https://github.com/msgbyte/tailchat" target="_blank">
-          https://github.com/msgbyte/tailchat
+        {t('官网')}:{' '}
+        <Link href="https://navi.1yo.cc" target="_blank">
+        https://navi.1yo.cc
         </Link>
       </Paragraph>
     </div>
   );
 });
 SettingsAbout.displayName = 'SettingsAbout';
+

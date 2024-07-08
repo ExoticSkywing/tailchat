@@ -10,13 +10,13 @@ export const Translate = {
     'en-US': 'Skip Tour',
   }),
   step1: localTrans({
-    'zh-CN': '欢迎使用 Tailchat, 一个插件化的开源IM应用！',
-    'en-US': 'Welcome to Tailchat, a pluginify open source IM application!',
+    'zh-CN': '欢迎使用 Astral Frontier, 一个插件化的IM应用！',
+    'en-US': 'Welcome to Astral Frontier, a pluginify IM application!',
   }),
   step2: localTrans({
-    'zh-CN': '这是导航栏, 在这里可以切换tailchat的各个主要页面。',
+    'zh-CN': '这是导航栏, 在这里可以切换Astral Frontier的各个主要页面。',
     'en-US':
-      'This is the navigation bar, where you can switch between the main pages of tailchat.',
+      'This is the navigation bar, where you can switch between the main pages of Astral Frontier.',
   }),
   step3: localTrans({
     'zh-CN': '这是个人信息入口，在这里可以访问您的好友、插件、以及私信等功能。',
@@ -41,14 +41,15 @@ export const Translate = {
       'This is the sidebar, used to toggle content. Will use it frequently in the future to switch between different panels.',
   }),
   step7: localTrans({
-    'zh-CN': '这是内容区，用于显示主要内容，也是Tailchat展示内容的地方。',
+    'zh-CN': '这是内容区，用于显示主要内容，也是Astral Frontier展示内容的地方。',
     'en-US':
-      'This is the content area, which is used to display the main content, and it is also where Tailchat displays the content.',
+      'This is the content area, which is used to display the main content, and it is also where Astral Frontier displays the content.',
   }),
   step8: localTrans({
     'zh-CN':
-      '如果有更多疑问, 欢迎访问官方文档了解更多: <br /><a href="https://tailchat.msgbyte.com/" target="_blank" style="text-decoration: underline;">点击此处打开官方文档</a>',
+      '如果有更多疑问, 欢迎访问舰桥了解更多: <br /><a href="https://navi.1yo.cc target="_blank" style="text-decoration: underline;">点击此处前往舰桥</a>',
     'en-US':
-      'If you have more questions, please visit the official document to learn more: <br /><a href="https://tailchat.msgbyte.com/" target="_blank" style="text-decoration: underline;">Click here to open the official documentation</a>',
+      'If you have more questions, please visit the star-bridge to learn more: <br /><a href="https://navi.1yo.cc" target="_blank" style="text-decoration: underline;">Click here to open the star-bridge</a>',
   }),
 };
+
